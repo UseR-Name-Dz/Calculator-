@@ -1,19 +1,17 @@
-# Calculator-
 # 🧮 C Calculator
 
-A simple calculator built using the **C programming language** as one of my first programming projects.
+A simple command-line calculator built using the **C programming language**.
 
-This project was created to practice fundamental C programming concepts and improve my problem-solving skills.
+This is one of my first programming projects, created to practice the fundamentals of C and improve my problem-solving skills.
 
-## 📌 Features
+## ✨ Features
 
-- Perform basic arithmetic operations.
 - Addition (`+`)
 - Subtraction (`-`)
 - Multiplication (`*`)
 - Division (`/`)
-- User input using `scanf()`.
-- Conditional statements to handle different operations.
+- User input handling.
+- Conditional statements to process different operations.
 
 ## 🛠️ Built With
 
@@ -21,61 +19,73 @@ This project was created to practice fundamental C programming concepts and impr
 - **Compiler:** GCC
 - **IDE:** Visual Studio Code
 
+## 📂 Project Structure
+
+```text
+The Calculator/
+│
+├── .vscode/
+├── The calc.c
+├── README.md
+└── Username.exe
+```
+
 ## 🚀 Getting Started
+
+### Prerequisites
+
+- GCC Compiler
+- Visual Studio Code (or any C-compatible editor)
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/UseR-Name-Dz/C-Calculator.git
+git clone https://github.com/UseR-Name-Dz/Calculator-.git
 ```
 
-### 2. Navigate to the project folder
+### 2. Navigate to the project directory
 
 ```bash
-cd C-Calculator
+cd Calculator-
 ```
 
-### 3. Compile the program
+### 3. Compile the source code
 
 ```bash
-gcc main.c -o Username
+gcc "The calc.c" -o Username
 ```
 
 ### 4. Run the program
 
-```bash
-./Username
-```
-
 On Windows:
 
 ```bash
-Username.exe
+.\Username.exe
 ```
 
 ## 📚 What I Learned
 
-Through this project, I practiced:
-
-- Variables and data types.
-- User input and output (`printf` and `scanf`).
-- Arithmetic operators.
-- Conditional statements (`if`, `else if`, `else`).
-- Basic program logic and problem-solving.
+- Understanding variables and data types.
+- Using `printf()` and `scanf()`.
+- Working with arithmetic operators.
+- Using conditional statements (`if`, `else if`, `else`).
+- Improving logical thinking and problem-solving.
 
 ## 🔮 Future Improvements
 
 - Add input validation.
 - Handle division by zero.
-- Improve the user interface.
-- Add more mathematical operations.
+- Support decimal numbers.
+- Improve the calculator's functionality.
 
-## 👨‍💻 Author
+## 👨‍💻 About Me
 
-An Informatics student currently learning C programming, algorithms, and data structures.
+I'm an Informatics student currently learning programming, algorithms, and data structures.
+
+This project is part of my journey to becoming a better programmer.
 
 **More projects coming soon!** 🚀
 
 ---
 
-⭐ If you find this project interesting, feel free to star the repository!
+⭐ If you find this project interesting, consider giving it a star!
