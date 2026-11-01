@@ -77,7 +77,13 @@ On Windows:
 - Add input validation. (Done☑️)
 - Handle division by zero. (Done☑️)
 - Support decimal numbers. (Done☑️)
-- Improve the calculator's functionality. (Done☑️)
+- Improve the calculator's functionality.
+
+## Demo
+
+Watch the calculator demonstration:
+
+[▶ Watch Project Demo](https://youtu.be/uyCp9hydSRc)
 
 ## 👨‍💻 About Me
 
