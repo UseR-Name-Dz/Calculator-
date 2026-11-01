@@ -18,33 +18,35 @@ int main (void) {
         printf("Error\n");
         return 1;
     }
-    if (op == '+') {
+    switch (op) {
+        case '+':
         printf("%d + %d = %d \n", number1 , number2 , number1 + number2);
-    }
-    else if (op == '-') {
+        break;
+        case '-':
         printf("%d - %d = %d \n", number1 , number2 , number1 - number2);
-    }
-    else if (op == '*') {
+        break;
+        case '*':
         printf("%d * %d = %d \n", number1 , number2 , number1 * number2);
-    }
-    else if (op == '/') {
+        break;
+        case '/':
         if (number2 == 0) {
             printf("Error (division by 0)\n");
         }
         else {
             printf("%d / %d = %f \n", number1 , number2 , (double)number1 / number2);
         }
-    }
-    else if (op == '%') {
+        break;
+        case '%':
         if (number2 == 0) {
             printf("Error (division by 0) \n");
         }
         else {
             printf("%d %% %d = %d \n", number1 , number2 , number1 % number2);
         }
-    }
-    else {
+        break;
+        default:
         printf("Error \n");
+        break;
     }
     return 0;
 }
