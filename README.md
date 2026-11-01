@@ -70,13 +70,14 @@ On Windows:
 - Working with arithmetic operators.
 - Using conditional statements (`if`, `else if`, `else`).
 - Improving logical thinking and problem-solving.
+- Conditional logic using switch.
 
 ## 🔮 Future Improvements
 
-- Add input validation.
-- Handle division by zero.
-- Support decimal numbers.
-- Improve the calculator's functionality.
+- Add input validation. (Done☑️)
+- Handle division by zero. (Done☑️)
+- Support decimal numbers. (Done☑️)
+- Improve the calculator's functionality. (Done☑️)
 
 ## 👨‍💻 About Me
 
