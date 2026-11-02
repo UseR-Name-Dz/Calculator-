@@ -83,7 +83,7 @@ On Windows:
 
 Watch the calculator demonstration:
 
-[▶ Watch Project Demo](https://youtu.be/uyCp9hydSRc)
+[▶ Watch Project Demo](https://youtu.be/uyCp9hydSRc?feature=shared)
 
 ## 👨‍💻 About Me
 
